@@ -50,7 +50,7 @@
         target.textContent = '_'.repeat(loc) + word.substring(loc);
 
         if (loc === word.length) {
-            if (words.length === 3) {
+            if (words.length === 5) {
                 const elapsedTime = ((Date.now() - startTime) / 1000).toFixed(2);
                 result.textContent = `Finished! ${elapsedTime} seconds! Click to start`;
                 isPlaying = false;
