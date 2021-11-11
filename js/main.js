@@ -38,9 +38,9 @@
     })
 
     document.addEventListener('keydown', e => {
-        // if (e.key !== word[loc]) {
-        //     return;
-        // }
+        if (e.key !== word[loc]) {
+            return;
+        }
 
         loc++;
 
